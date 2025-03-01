@@ -11,7 +11,7 @@ This project is a Playwright Automation Test Suite for LambdaTest Certification.
 1. Clone the repository:
 ```bash
 git clone https://github.com/amishdukle/Playwright.git
-cd playwright-102-assignment
+cd Playwright
 ```
 
 2. Install dependencies:
@@ -33,9 +33,3 @@ Click the button below to open in Gitpod:
 ## Secrets Management
 Set your **API_KEY** as a GitHub Secret under:
 **Settings → Secrets and Variables → Actions**
-'''
-
-with open("README.md", "w") as file:
-    file.write(readme_md)
-
-print("Project setup with README.md, Gitpod configuration, and GitHub Actions workflow complete.")
