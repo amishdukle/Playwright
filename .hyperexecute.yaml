@@ -1,4 +1,3 @@
- '''
 version: 0
 runson: ["win10", "linux"]
 target: "tests/*.py"
@@ -19,6 +18,4 @@ artifacts:
     path: reports/
 
 secrets:
-  API_KEY: "your_api_key_here"
-'''
-
+  API_KEY: "vSYdaOYRzx1vqz3xJBM5OqVqPGKkVITmlIlhfmv8Ab7Uho3fOk"
