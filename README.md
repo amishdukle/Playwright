@@ -13,7 +13,7 @@ This project is a Playwright Automation Test Suite for LambdaTest Certification.
 1. Clone the repository:
 ```bash
 git clone https://github.com/amishdukle/Playwright.git
-cd Playwright
+cd playwright-102-assignment
 ```
 
 2. Install dependencies:
