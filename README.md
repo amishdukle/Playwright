@@ -1,5 +1,3 @@
-# README.md
-readme_md = '''
 # Playwright Certification Assignment
 
 This project is a Playwright Automation Test Suite for LambdaTest Certification.
