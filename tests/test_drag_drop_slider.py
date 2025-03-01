@@ -1,3 +1,6 @@
+from playwright.sync_api import sync_playwright, expect
+from config import URL
+
 def test_drag_drop_slider():
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
