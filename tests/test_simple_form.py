@@ -1,3 +1,6 @@
+from playwright.sync_api import sync_playwright, expect
+from config import URL, MESSAGE
+
 def test_simple_form():
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
