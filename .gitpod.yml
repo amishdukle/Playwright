@@ -1,0 +1,8 @@
+image: node:latest
+tasks:
+  - init: npm install
+    command: npx playwright test
+terminal: true
+ports:
+  - port: 3000
+    onOpen: open-preview
