@@ -1,0 +1,27 @@
+# .hyperexecute.yaml
+hyperexecute_yaml = '''
+version: 0
+runson: ["win10", "linux"]
+target: "tests/*.py"
+framework: "pytest"
+
+pre:
+  - pip install -r requirements.txt
+
+env:
+  API_KEY: ${{ secrets.API_KEY }}
+
+cacheKey: "requirements.txt"
+cachedPaths:
+  - .venv/
+
+artifacts:
+  logs:
+    path: reports/
+
+secrets:
+  API_KEY: "your_api_key_here"
+'''
+
+with open(".hyperexecute.yaml", "w") as file:
+    file.write(hyperexecute_yaml)
