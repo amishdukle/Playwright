@@ -4,6 +4,3 @@ tasks:
       playwright install
   - name: Run Tests
     command: pytest
-
-with open(".gitpod.yml", "w") as file:
-    file.write(gitpod_yml)
