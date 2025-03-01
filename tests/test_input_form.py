@@ -3,7 +3,7 @@ from config import URL
 
 def test_input_form():
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True)
+        browser = p.chromium.launch(headless=False)
         page = browser.new_page()
         page.goto(URL)
         page.click("text=Input Form Submit")
