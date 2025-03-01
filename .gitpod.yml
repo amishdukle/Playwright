@@ -1,12 +1,9 @@
-# .gitpod.yml
-gitpod_yml = '''
 tasks:
-  - name: Install Dependencies
-    command: pip install -r requirements.txt && playwright install
-
+  - init: |
+      pip install -r requirements.txt
+      playwright install
   - name: Run Tests
     command: pytest
-'''
 
 with open(".gitpod.yml", "w") as file:
     file.write(gitpod_yml)
