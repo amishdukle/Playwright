@@ -1,46 +1,43 @@
 # README.md
-# Playwright 102 Assignment
+readme_md = '''
+# Playwright Certification Assignment
 
-## Project Setup
+This project is a Playwright Automation Test Suite for LambdaTest Certification.
 
-### Prerequisites
-- Node.js (Latest LTS Version)
+## Prerequisites
+- Python 3.8+
+- Playwright
 - Git
-- LambdaTest Account
-- Gitpod Account
 
-### How to Run the Tests on Gitpod
+## Setup
 1. Clone the repository:
 ```bash
-https://github.com/your-repo-name.git
+git clone https://github.com/your-username/playwright-102-assignment.git
+cd playwright-102-assignment
 ```
 
-2. Open the project in Gitpod:
+2. Install dependencies:
 ```bash
-https://gitpod.io/#https://github.com/your-repo-name.git
+pip install -r requirements.txt
+playwright install
 ```
 
-3. Install dependencies:
+3. Run Tests:
 ```bash
-npm install
+pytest
 ```
 
-4. Run tests locally:
-```bash
-npx playwright test
-```
+## Gitpod Integration
+Click the button below to open in Gitpod:
 
-5. Run tests on HyperExecute:
-```bash
-wget https://downloads.lambdatest.com/hyperexecute/linux/hyperexecute && chmod +x hyperexecute
-./hyperexecute --config hyperexecute.yaml --download-artifacts
-```
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/your-username/playwright-102-assignment)
 
-### Secrets Management
-Ensure you have the following environment secrets configured on GitHub:
-- `LT_USERNAME`
-- `LT_ACCESS_KEY`
+## Secrets Management
+Set your **API_KEY** as a GitHub Secret under:
+**Settings → Secrets and Variables → Actions**
+'''
 
-### Artifacts
-Test execution results will be available under the **test-results/** folder and automatically uploaded to GitHub Actions artifacts.
+with open("README.md", "w") as file:
+    file.write(readme_md)
 
+print("Project setup with README.md, Gitpod configuration, and GitHub Actions workflow complete.")
