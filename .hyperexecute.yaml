@@ -1,3 +1,4 @@
+ '''
 version: 0
 runson: ["win10", "linux"]
 target: "tests/*.py"
@@ -20,7 +21,4 @@ artifacts:
 secrets:
   API_KEY: "your_api_key_here"
 '''
-
-with open(".hyperexecute.yaml", "w") as file:
-    file.write(hyperexecute_yaml)
 
