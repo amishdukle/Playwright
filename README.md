@@ -28,7 +28,7 @@ pytest
 ## Gitpod Integration
 Click the button below to open in Gitpod:
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://hyperexecute.lambdatest.com/hyperexecute/jobs?type=gitpod&framework=Python&frameworkType=PlayWright)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/new/#LT_USERNAME=amish_dukle,LT_ACCESS_KEY=vSYdaOYRzx1vqz3xJBM5OqVqPGKkVITmlIlhfmv8Ab7Uho3fOk/https://github.com/amishdukle/Playwright.git)
 
 ## Secrets Management
 Set your **API_KEY** as a GitHub Secret under:
